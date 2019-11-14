@@ -1,5 +1,5 @@
 {
-  "name": "node-sass-alias-importer",
+  "name": "@dimaeromin97/node-sass-alias-importer",
   "description": "Node sass importer supporting custom alias for directories or specific files",
   "version": "1.0.0",
   "keywords": [
@@ -17,7 +17,7 @@
   ],
   "author": "Javier Brea",
   "license": "MIT",
-  "repository": "https://github.com/javierbrea/node-sass-alias-importer",
+  "repository": "https://github.com/dimaeromin97/node-sass-alias-importer.git",
   "files": [
     "src"
   ],
@@ -42,10 +42,5 @@
   },
   "lint-staged": {
     "src/**/*.js": "eslint"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint-staged"
-    }
   }
 }
